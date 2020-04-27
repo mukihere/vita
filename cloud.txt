@@ -1,2 +1,9 @@
 what is cloud ??
 
+
+cloud provides anyone to access resources on demand over internet.resources like os,storage,processor,GPU etc
+
+
+
+
+
