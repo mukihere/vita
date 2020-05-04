@@ -1,12 +1,10 @@
-
-
-
---------------------------------------------------------------------------------------
+# How to read json file from s3 bucket to lambda function
+**first create md file in s3 bucket**
+```python
 import json
 import boto3
 mys3=boto3.client('s3')
 print('Loading function')
-
 
 def lambda_handler(event, context):
     #print("Received event: " + json.dumps(event, indent=2))
@@ -23,5 +21,4 @@ def lambda_handler(event, context):
     print("student name--->",jsonObject['name'])
     print("College Name--->",jsonObject['college'])
     return jsonObject['name']
-
------------------------------------------------------------------------------------
+```
