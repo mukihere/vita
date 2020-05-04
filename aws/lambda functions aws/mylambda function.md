@@ -1,5 +1,7 @@
 # How to read json file from s3 bucket to lambda function
-**first create md file in s3 bucket**
+- **first create md file in s3 bucket**
+- **Write lambda function to read json file**
+### Lambda Function
 ```python
 import json
 import boto3
@@ -21,4 +23,15 @@ def lambda_handler(event, context):
     print("student name--->",jsonObject['name'])
     print("College Name--->",jsonObject['college'])
     return jsonObject['name']
+```
+
+
+
+### JSON File Created in s3 bucket
+```json
+{
+	"name":"mukund",
+	"college":"SM-VITA"
+}
+
 ```
