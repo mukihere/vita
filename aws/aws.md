@@ -4,6 +4,8 @@
 ## cloud
 cloud is a term referred to storing and accessing data over the internet.
 It doesn't store any data on the hard disk of your personal computer. In cloud computing, you can access data from a remote server.
+![Cloud image](https://github.com/mukund1995/vita/blob/master/aws/images/cloud.png)
+
 ##  Advantages
 * **Cost Savings:** It helps you to save substantial capital cost as it does not need any physical hardware investments.Also, you do not need trained personnel to maintain the hardware.The buying and managing of equipment is done by the cloud service provider.
 * **Strategic edge:** It helps you to access the latest and applications any time without spending your time and money on installations.
