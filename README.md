@@ -1,1 +1,1 @@
-cloud file information
+Information about AWS cloud
