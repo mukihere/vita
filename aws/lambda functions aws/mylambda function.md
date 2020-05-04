@@ -25,6 +25,7 @@ def lambda_handler(event, context):
     return jsonObject['name']
 ```
 
+![Cloud image](https://github.com/mukund1995/vita/blob/master/aws/images/lambda_function.png)
 
 
 ### JSON File Created in s3 bucket
